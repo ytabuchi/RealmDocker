@@ -1,0 +1,13 @@
+services:
+  realm1:
+    image: ytabuchi/realm
+    ports:
+      - 9081:9080
+  realm2:
+    image: ytabuchi/realm
+    ports:
+      - 9082:9080
+  realm3:
+    image: ytabuchi/realm
+    ports:
+      - 9083:9080
